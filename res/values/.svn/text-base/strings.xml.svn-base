@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="open_helper_classname">br.com.jplr.utils.db.DatabaseHelper</string>
-    <string name="app_name">CardapioNaMao</string>
-    <string name="erro_carregar_item">Erro ao carregar opção!\nFavor reportar ao estabelecimento.</string>
-</resources>
