@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/18/trunk/cardapio_digital/res/layout
+END
+progress_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/16/trunk/cardapio_digital/res/layout/progress_dialog.xml
+END
+row.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/10/trunk/cardapio_digital/res/layout/row.xml
+END
+detalhe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/17/trunk/cardapio_digital/res/layout/detalhe.xml
+END
+configuracoes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/18/trunk/cardapio_digital/res/layout/configuracoes.xml
+END
+aba_informacoes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/cardapio_digital/res/layout/aba_informacoes.xml
+END
