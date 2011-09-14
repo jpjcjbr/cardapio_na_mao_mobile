@@ -52,7 +52,7 @@ public class CardapioDigital extends OrmLiteBaseTabActivity<DatabaseHelper> impl
 		}
 		else
 		{
-			adicionarAba(tabHost, new Categoria("Instru√ß√µes"));
+			adicionarAba(tabHost, new Categoria("Instruções"));
 		}
 	}
 	
@@ -124,7 +124,7 @@ public class CardapioDigital extends OrmLiteBaseTabActivity<DatabaseHelper> impl
 	public boolean onCreateOptionsMenu(Menu menu) {
 		super.onCreateOptionsMenu(menu);
 		
-		MenuItem item = menu.add(0, CONFIGURACOES, 0, "Configura√ß√µes");
+		MenuItem item = menu.add(0, CONFIGURACOES, 0, "Configurações");
 		item.setIcon(android.R.drawable.ic_menu_preferences);
 		
 		item = menu.add(0, ATUALIZAR, 0, "Atualizar");
@@ -163,7 +163,7 @@ public class CardapioDigital extends OrmLiteBaseTabActivity<DatabaseHelper> impl
 			case ATUALIZAR:
 				
 				AlertDialog.Builder alerta = new AlertDialog.Builder(this);
-				alerta.setTitle("Atualiza√ß√£o");
+				alerta.setTitle("Atualização");
 				alerta.setMessage("Itens atualizados com sucesso.");
 				
 				alerta.setPositiveButton("OK", new DialogInterface.OnClickListener() {
@@ -183,8 +183,8 @@ public class CardapioDigital extends OrmLiteBaseTabActivity<DatabaseHelper> impl
 			switch (requestCode) {
 			case ATUALIZAR:
 				AlertDialog.Builder alerta = new AlertDialog.Builder(this);
-				alerta.setTitle("Usu√°rio n√£o configurado");
-				alerta.setMessage("Favor configurar o email do usu√°rio na tela de configura√ß√µes.");
+				alerta.setTitle("Usuário não configurado");
+				alerta.setMessage("Favor configurar o email do usuário na tela de configurações.");
 				
 				alerta.setPositiveButton("Configurar", new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int whichButton) {

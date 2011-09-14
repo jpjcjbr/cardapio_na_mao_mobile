@@ -24,7 +24,7 @@ public class Atualizacao extends OrmLiteBaseActivity<DatabaseHelper>{
 		
 		setContentView(R.layout.progress_dialog);
 		
-		dialog = ProgressDialog.show(this, "Atualiza√ß√£o", "Atualizando itens", false, true);
+		dialog = ProgressDialog.show(this, "Atualização", "Atualizando itens", false, true);
 		
 		try {
 			Configuracao configuracao = getHelper().getConfigutacaoRepository().queryForId(1);
